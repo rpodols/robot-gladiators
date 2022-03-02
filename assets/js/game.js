@@ -83,6 +83,9 @@ while(playerHealth > 0 && enemyHealth > 0) {
 };
 
 // run fight function to start game
+if (playerHealth > 0){
+  window.alert("Welcome to Robot Gladiators! Round " + (i + 1));
+}
 for(var i = 0; i < enemyNames.length; i++) {
   debugger;
   var pickedEnemyName = enemyNames[i];
